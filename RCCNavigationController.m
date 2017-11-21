@@ -152,7 +152,6 @@ NSString const *CALLBACK_ASSOCIATED_ID = @"RCCNavigationController.CALLBACK_ASSO
     
     
     /// @@@ Tom
-    _action = [performAction copy];
     _rccViewController = viewController;
     /// @@@
     
@@ -222,6 +221,8 @@ NSString const *CALLBACK_ASSOCIATED_ID = @"RCCNavigationController.CALLBACK_ASSO
         
       } ) ;
 #endif
+      
+      _action = [performAction copy];
     }
     return;
   }

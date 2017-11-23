@@ -70,4 +70,13 @@ The same as above, but this time:
 
 - In RCCManagerModule.m/showController - observe the notification, then do the true 'presentController'
 
+## How to use
+
+- I am using react-native-navigation, "react-native-navigation": "^1.1.256"
+- I changed the two files in react-native-navigation, by open your project in Xcode, you can see these files in Library folder
+- To replace them wasn't recommended, by comparing difference and then merge the code I added would be better
+- All code I have added with comment start with ```/// @@@Tom```, you can search and see them
+- Those RCTRootContentView+RCTRootContentViewExtension two files, should drag and copy to Library/React/Base folder.
+
+This fix was just a try-out, not really sure if it had some side-effects.. if you have found any, let me know, thanks in advance, I am using it now too.
 

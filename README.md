@@ -8,6 +8,12 @@ But it do have some issues, while interact with react native, the problem wasn't
 
 Here all fix only worked for iOS.
 
+### Touchable component stop working once after swipe back manually
+
+It's common, by using several button replacement from react-native-gesture-handler, it's able to resolve it. 
+
+https://github.com/wix/react-native-navigation/issues/2008
+
 ### Switch Tab - showing blink page
 
 When RNN is running, the style 'flex:1', will bring this issue, try make container size by 'width:height' instead.
